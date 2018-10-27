@@ -1,25 +1,27 @@
 # linux-cheminot
+Container docker pour Cheminot(https://www.etsmtl.ca/Etudiants-Actuels/Baccalaureat/Guichet-interactif/ChemiNot)
 
-Ben oui, c'est pas facile l'ÉTS.
+Cheminot est un programme permettant aux étudiants de l'ÉTS de s'inscrire/se désinscrire des cours.
 
-Fait juste ``make run`` pis tu va pouvoir choisir/annuler tes cours.
-
-Derien.
-
-Si tu veux même pas cloner le repo et builder toi même l'image, fait ca:
- - ``xhost +local:docker && docker run -ti --rm -e DISPLAY=$DISPLAY -v /tmp/.X11-unix:/tmp/.X11-unix reazem/linux-cheminot``
-
-## Dependencies
+## Dépendances
 
 - make
 - docker
 - xorg-xhost
 
+## Installation
 
-## Projet docker hub:
+Une fois les dépendances installées, cloner le repository.
 
-- https://hub.docker.com/r/reazem/linux-cheminot
+## Exécution
 
-## Trivia
+Pour lancer Cheminot exécuter
+- 
+```
+cd linux-cheminot
+make run
+```
 
-L'école est supérieure, pas la technologie.
+## Repository original
+
+https://github.com/aviau/linux-cheminot
