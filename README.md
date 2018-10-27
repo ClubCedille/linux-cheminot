@@ -13,6 +13,7 @@ Si tu veux même pas cloner le repo et builder toi même l'image, fait ca:
 
 - make
 - docker
+- xorg-xhost
 
 
 ## Projet docker hub:
