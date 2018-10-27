@@ -16,7 +16,6 @@ Une fois les dépendances installées, cloner le repository.
 ## Exécution
 
 Pour lancer Cheminot exécuter
-- 
 ```
 cd linux-cheminot
 make run
