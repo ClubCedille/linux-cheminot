@@ -1,5 +1,5 @@
 # linux-cheminot
-Container docker pour Cheminot(https://www.etsmtl.ca/Etudiants-Actuels/Baccalaureat/Guichet-interactif/ChemiNot)
+Image docker pour Cheminot(https://www.etsmtl.ca/Etudiants-Actuels/Baccalaureat/Guichet-interactif/ChemiNot)
 
 Cheminot est un programme permettant aux étudiants de l'ÉTS de s'inscrire/se désinscrire des cours.
 
