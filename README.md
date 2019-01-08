@@ -1,25 +1,31 @@
 # linux-cheminot
-Image docker pour Cheminot(https://www.etsmtl.ca/Etudiants-Actuels/Baccalaureat/Guichet-interactif/ChemiNot)
+Image docker pour utiliser [Cheminot](https://www.etsmtl.ca/Etudes/ChemiNot) facilement sous linux.
 
 Cheminot est un programme permettant aux étudiants de l'ÉTS de s'inscrire/se désinscrire des cours.
 
 ## Dépendances
 
-- make
-- docker
+- Make
+- Docker
 - xorg-xhost
 
 ## Installation
 
-Une fois les dépendances installées, cloner le repository.
+Installer les dépendances et ensuite, cloner le dépôt.
 
-## Exécution
+## Utilisation
 
-Pour lancer Cheminot exécuter
+Pour lancer Cheminot, exécuter
+
 ```
+
 cd linux-cheminot
+
 make run
+
 ```
+
+_La commande `make` peut nécessiter les droits de super-utilisateur puisqu'elle fait utilisation de docker._
 
 ## Repository original
 
