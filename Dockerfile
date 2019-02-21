@@ -1,4 +1,4 @@
-FROM base/archlinux
+FROM archlinux/base
 
 RUN pacman -Syu --noconfirm  icedtea-web libxext libxrender libxtst fontconfig ttf-dejavu
 
