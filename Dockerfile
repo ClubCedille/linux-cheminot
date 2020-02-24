@@ -8,4 +8,4 @@ ENV LANGUAGE en_CA.UTF-8
 
 ADD https://cheminotjws.etsmtl.ca/ChemiNot.jnlp /opt/ChemiNot.jnlp
 
-CMD javaws /opt/ChemiNot.jnlp
+CMD javaws -J-Dsun.java2d.uiScale=2.5 /opt/ChemiNot.jnlp
